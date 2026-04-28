@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "04-ejercicios.html",
+    "href": "04-ejercicios.html",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "Lanzamos un dado equilibrado.\nSea:\n\\[\nA=\\{1,3,5\\}\n\\]\n\nDescribe con palabras el suceso \\(A\\).\nCalcula \\(P(A)\\).\n\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\nEl suceso \\(A\\) significa “obtener un número impar”.\nComo hay 3 resultados favorables de 6 posibles:\n\\[\nP(A)=\\frac{3}{6}=\\frac{1}{2}\n\\]\n\n\n\n\n\n\nLanzamos un dado equilibrado.\nSean:\n\\[\nA=\\{1,2\\}\n\\]\ny\n\\[\nB=\\{2,3,4\\}\n\\]\n\nCalcula \\(A \\cap B\\).\nCalcula \\(A \\cup B\\).\n¿Son incompatibles?\n\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\nTenemos:\n\\[\nA \\cap B = \\{2\\}\n\\]\ny\n\\[\nA \\cup B = \\{1,2,3,4\\}\n\\]\nNo son incompatibles porque tienen un elemento en común.\n\n\n\n\n\n\nSabemos que:\n\\[\nP(A)=0.35\n\\]\nCalcula:\n\\[\nP(A^c)\n\\]\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\nUsamos la fórmula:\n\\[\nP(A^c)=1-P(A)\n\\]\nPor tanto:\n\\[\nP(A^c)=1-0.35=0.65\n\\]\n\n\n\n\n\n\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org.\n\n\n\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "04-ejercicios.html#ejercicio-1",
+    "href": "04-ejercicios.html#ejercicio-1",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "Lanzamos un dado equilibrado.\nSea:\n\\[\nA=\\{1,3,5\\}\n\\]\n\nDescribe con palabras el suceso \\(A\\).\nCalcula \\(P(A)\\).\n\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\nEl suceso \\(A\\) significa “obtener un número impar”.\nComo hay 3 resultados favorables de 6 posibles:\n\\[\nP(A)=\\frac{3}{6}=\\frac{1}{2}\n\\]"
+  },
+  {
+    "objectID": "04-ejercicios.html#ejercicio-2",
+    "href": "04-ejercicios.html#ejercicio-2",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "Lanzamos un dado equilibrado.\nSean:\n\\[\nA=\\{1,2\\}\n\\]\ny\n\\[\nB=\\{2,3,4\\}\n\\]\n\nCalcula \\(A \\cap B\\).\nCalcula \\(A \\cup B\\).\n¿Son incompatibles?\n\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\nTenemos:\n\\[\nA \\cap B = \\{2\\}\n\\]\ny\n\\[\nA \\cup B = \\{1,2,3,4\\}\n\\]\nNo son incompatibles porque tienen un elemento en común."
+  },
+  {
+    "objectID": "04-ejercicios.html#ejercicio-3",
+    "href": "04-ejercicios.html#ejercicio-3",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "Sabemos que:\n\\[\nP(A)=0.35\n\\]\nCalcula:\n\\[\nP(A^c)\n\\]\n\n\n\n\n\n\nTipSolución\n\n\n\n\n\nUsamos la fórmula:\n\\[\nP(A^c)=1-P(A)\n\\]\nPor tanto:\n\\[\nP(A^c)=1-0.35=0.65\n\\]"
+  },
+  {
+    "objectID": "04-ejercicios.html#quarto",
+    "href": "04-ejercicios.html#quarto",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "04-ejercicios.html#running-code",
+    "href": "04-ejercicios.html#running-code",
+    "title": "Ejercicios",
+    "section": "",
+    "text": "When you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "02-axiomas.html",
+    "href": "02-axiomas.html",
+    "title": "Axiomas de Kolmogorov",
+    "section": "",
+    "text": "La probabilidad moderna se construye a partir de una formulación axiomática. Esto significa que partimos de unas reglas básicas, llamadas axiomas, y a partir de ellas deducimos las propiedades de la probabilidad.\n\n\nSea \\(\\Omega\\) un espacio muestral. Una probabilidad es una función que asigna a cada suceso \\(A\\) un número real \\(P(A)\\).\nEse número representa el grado de posibilidad de que ocurra el suceso \\(A\\).\n\n\n\nPara todo suceso \\(A\\):\n\\[\nP(A) \\geq 0\n\\]\nEs decir, una probabilidad nunca puede ser negativa.\n\n\n\n\n\n\nNoteInterpretación\n\n\n\nNo tiene sentido decir que la probabilidad de un suceso es menor que cero.\n\n\n\n\n\nLa probabilidad del espacio muestral completo es igual a uno:\n\\[\nP(\\Omega)=1\n\\]\nEsto significa que, al realizar el experimento, necesariamente ocurre algún resultado del espacio muestral.\n\n\n\nSi \\(A_1,A_2,A_3,\\ldots\\) son sucesos incompatibles dos a dos, entonces:\n\\[\nP\\left(\\bigcup_{n=1}^{\\infty} A_n\\right)\n=\n\\sum_{n=1}^{\\infty} P(A_n)\n\\]\nDos sucesos son incompatibles si no pueden ocurrir al mismo tiempo.\nEs decir, si:\n\\[\nA_i \\cap A_j = \\varnothing\n\\quad \\text{cuando } i \\neq j\n\\]\n\n\n\n\n\n\nWarningCuidado\n\n\n\nLa fórmula\n\\[\nP(A \\cup B)=P(A)+P(B)\n\\]\nsolo se puede usar directamente cuando \\(A\\) y \\(B\\) son incompatibles.\n\n\n\n\n\nLanzamos un dado equilibrado. Consideramos los sucesos:\n\\[\nA = \\{1,2\\}\n\\]\ny\n\\[\nB = \\{5,6\\}\n\\]\nComo no tienen elementos en común:\n\\[\nA \\cap B = \\varnothing\n\\]\npodemos sumar sus probabilidades:\n\\[\nP(A \\cup B)=P(A)+P(B)\n\\]\nComo:\n\\[\nP(A)=\\frac{2}{6}\n\\]\ny\n\\[\nP(B)=\\frac{2}{6}\n\\]\nentonces:\n$$ P(A B)=+==$$"
+  },
+  {
+    "objectID": "02-axiomas.html#función-de-probabilidad",
+    "href": "02-axiomas.html#función-de-probabilidad",
+    "title": "Axiomas de Kolmogorov",
+    "section": "",
+    "text": "Sea \\(\\Omega\\) un espacio muestral. Una probabilidad es una función que asigna a cada suceso \\(A\\) un número real \\(P(A)\\).\nEse número representa el grado de posibilidad de que ocurra el suceso \\(A\\)."
+  },
+  {
+    "objectID": "02-axiomas.html#axioma-1-no-negatividad",
+    "href": "02-axiomas.html#axioma-1-no-negatividad",
+    "title": "Axiomas de Kolmogorov",
+    "section": "",
+    "text": "Para todo suceso \\(A\\):\n\\[\nP(A) \\geq 0\n\\]\nEs decir, una probabilidad nunca puede ser negativa.\n\n\n\n\n\n\nNoteInterpretación\n\n\n\nNo tiene sentido decir que la probabilidad de un suceso es menor que cero."
+  },
+  {
+    "objectID": "02-axiomas.html#axioma-2-probabilidad-del-espacio-total",
+    "href": "02-axiomas.html#axioma-2-probabilidad-del-espacio-total",
+    "title": "Axiomas de Kolmogorov",
+    "section": "",
+    "text": "La probabilidad del espacio muestral completo es igual a uno:\n\\[\nP(\\Omega)=1\n\\]\nEsto significa que, al realizar el experimento, necesariamente ocurre algún resultado del espacio muestral."
+  },
+  {
+    "objectID": "02-axiomas.html#axioma-3-aditividad-numerable",
+    "href": "02-axiomas.html#axioma-3-aditividad-numerable",
+    "title": "Axiomas de Kolmogorov",
+    "section": "",
+    "text": "Si \\(A_1,A_2,A_3,\\ldots\\) son sucesos incompatibles dos a dos, entonces:\n\\[\nP\\left(\\bigcup_{n=1}^{\\infty} A_n\\right)\n=\n\\sum_{n=1}^{\\infty} P(A_n)\n\\]\nDos sucesos son incompatibles si no pueden ocurrir al mismo tiempo.\nEs decir, si:\n\\[\nA_i \\cap A_j = \\varnothing\n\\quad \\text{cuando } i \\neq j\n\\]\n\n\n\n\n\n\nWarningCuidado\n\n\n\nLa fórmula\n\\[\nP(A \\cup B)=P(A)+P(B)\n\\]\nsolo se puede usar directamente cuando \\(A\\) y \\(B\\) son incompatibles."
+  },
+  {
+    "objectID": "02-axiomas.html#ejemplo",
+    "href": "02-axiomas.html#ejemplo",
+    "title": "Axiomas de Kolmogorov",
+    "section": "",
+    "text": "Lanzamos un dado equilibrado. Consideramos los sucesos:\n\\[\nA = \\{1,2\\}\n\\]\ny\n\\[\nB = \\{5,6\\}\n\\]\nComo no tienen elementos en común:\n\\[\nA \\cap B = \\varnothing\n\\]\npodemos sumar sus probabilidades:\n\\[\nP(A \\cup B)=P(A)+P(B)\n\\]\nComo:\n\\[\nP(A)=\\frac{2}{6}\n\\]\ny\n\\[\nP(B)=\\frac{2}{6}\n\\]\nentonces:\n$$ P(A B)=+==$$"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Axiomática de Kolmogorov",
+    "section": "",
+    "text": "Este material está pensado para estudiantes que llegan a la universidad desde bachillerato y necesitan una introducción clara a la probabilidad axiomática.\n\n\nAl terminar este bloque, deberías ser capaz de:\n\nEntender qué es un experimento aleatorio.\nIdentificar el espacio muestral de un experimento.\nDistinguir entre resultado elemental y suceso.\nComprender los tres axiomas de Kolmogorov.\nDeducir propiedades básicas de la probabilidad.\n\n\n\n\n\nIntroducción\nAxiomas de Kolmogorov\nPropiedades de la probabilidad\nEjercicios"
+  },
+  {
+    "objectID": "index.html#objetivos-del-material",
+    "href": "index.html#objetivos-del-material",
+    "title": "Axiomática de Kolmogorov",
+    "section": "",
+    "text": "Al terminar este bloque, deberías ser capaz de:\n\nEntender qué es un experimento aleatorio.\nIdentificar el espacio muestral de un experimento.\nDistinguir entre resultado elemental y suceso.\nComprender los tres axiomas de Kolmogorov.\nDeducir propiedades básicas de la probabilidad."
+  },
+  {
+    "objectID": "index.html#contenidos",
+    "href": "index.html#contenidos",
+    "title": "Axiomática de Kolmogorov",
+    "section": "",
+    "text": "Introducción\nAxiomas de Kolmogorov\nPropiedades de la probabilidad\nEjercicios"
+  },
+  {
+    "objectID": "01-introduccion.html",
+    "href": "01-introduccion.html",
+    "title": "Introducción a la probabilidad",
+    "section": "",
+    "text": "Antes de estudiar los axiomas de Kolmogorov, necesitamos recordar algunas ideas básicas.\n\n\nUn experimento aleatorio es un proceso cuyo resultado no podemos predecir con certeza antes de realizarlo.\nPor ejemplo:\n\nLanzar una moneda.\nLanzar un dado.\nExtraer una carta de una baraja.\nElegir al azar una persona de una clase.\n\n\n\n\nEl espacio muestral es el conjunto de todos los resultados posibles de un experimento aleatorio. Lo denotamos por:\n\\[\n\\Omega\n\\]\nPor ejemplo, si lanzamos un dado:\n\\[\n\\Omega = \\{1,2,3,4,5,6\\}\n\\]\n\n\n\nUn suceso es un subconjunto del espacio muestral.\nPor ejemplo, si lanzamos un dado, el suceso “obtener un número par” es:\n\\[\nA = \\{2,4,6\\}\n\\]\n\n\n\n\n\n\nNoteIdea clave\n\n\n\nUn resultado elemental es un único resultado posible.\nUn suceso puede contener uno o varios resultados."
+  },
+  {
+    "objectID": "01-introduccion.html#experimento-aleatorio",
+    "href": "01-introduccion.html#experimento-aleatorio",
+    "title": "Introducción a la probabilidad",
+    "section": "",
+    "text": "Un experimento aleatorio es un proceso cuyo resultado no podemos predecir con certeza antes de realizarlo.\nPor ejemplo:\n\nLanzar una moneda.\nLanzar un dado.\nExtraer una carta de una baraja.\nElegir al azar una persona de una clase."
+  },
+  {
+    "objectID": "01-introduccion.html#espacio-muestral",
+    "href": "01-introduccion.html#espacio-muestral",
+    "title": "Introducción a la probabilidad",
+    "section": "",
+    "text": "El espacio muestral es el conjunto de todos los resultados posibles de un experimento aleatorio. Lo denotamos por:\n\\[\n\\Omega\n\\]\nPor ejemplo, si lanzamos un dado:\n\\[\n\\Omega = \\{1,2,3,4,5,6\\}\n\\]"
+  },
+  {
+    "objectID": "01-introduccion.html#sucesos",
+    "href": "01-introduccion.html#sucesos",
+    "title": "Introducción a la probabilidad",
+    "section": "",
+    "text": "Un suceso es un subconjunto del espacio muestral.\nPor ejemplo, si lanzamos un dado, el suceso “obtener un número par” es:\n\\[\nA = \\{2,4,6\\}\n\\]\n\n\n\n\n\n\nNoteIdea clave\n\n\n\nUn resultado elemental es un único resultado posible.\nUn suceso puede contener uno o varios resultados."
+  },
+  {
+    "objectID": "03-propiedades.html",
+    "href": "03-propiedades.html",
+    "title": "Propiedades de la probabilidad",
+    "section": "",
+    "text": "A partir de los axiomas de Kolmogorov se pueden deducir muchas propiedades importantes.\n\n\nEl suceso imposible se denota por:\n\\[\n\\varnothing\n\\]\ny cumple:\n\\[\nP(\\varnothing)=0\n\\]\n\n\n\nSi \\(A\\) es un suceso, su complementario \\(A^c\\) representa que no ocurre \\(A\\).\nSe cumple:\n\\[\nP(A^c)=1-P(A)\n\\]\n\n\n\nSi \\(A \\subseteq B\\), entonces:\n\\[\nP(A)\\leq P(B)\n\\]\nEs decir, si siempre que ocurre \\(A\\) también ocurre \\(B\\), entonces la probabilidad de \\(A\\) no puede ser mayor que la probabilidad de \\(B\\).\n\n\n\nPara dos sucesos cualesquiera \\(A\\) y \\(B\\):\n\\[\nP(A\\cup B)=P(A)+P(B)-P(A\\cap B)\n\\]\n\n\n\n\n\n\nTipCaso especial\n\n\n\nSi \\(A\\) y \\(B\\) son incompatibles, entonces:\n\\[\nA\\cap B=\\varnothing\n\\]\ny por tanto:\n\\[\nP(A\\cup B)=P(A)+P(B)\n\\]"
+  },
+  {
+    "objectID": "03-propiedades.html#probabilidad-del-suceso-imposible",
+    "href": "03-propiedades.html#probabilidad-del-suceso-imposible",
+    "title": "Propiedades de la probabilidad",
+    "section": "",
+    "text": "El suceso imposible se denota por:\n\\[\n\\varnothing\n\\]\ny cumple:\n\\[\nP(\\varnothing)=0\n\\]"
+  },
+  {
+    "objectID": "03-propiedades.html#probabilidad-del-complementario",
+    "href": "03-propiedades.html#probabilidad-del-complementario",
+    "title": "Propiedades de la probabilidad",
+    "section": "",
+    "text": "Si \\(A\\) es un suceso, su complementario \\(A^c\\) representa que no ocurre \\(A\\).\nSe cumple:\n\\[\nP(A^c)=1-P(A)\n\\]"
+  },
+  {
+    "objectID": "03-propiedades.html#monotonía",
+    "href": "03-propiedades.html#monotonía",
+    "title": "Propiedades de la probabilidad",
+    "section": "",
+    "text": "Si \\(A \\subseteq B\\), entonces:\n\\[\nP(A)\\leq P(B)\n\\]\nEs decir, si siempre que ocurre \\(A\\) también ocurre \\(B\\), entonces la probabilidad de \\(A\\) no puede ser mayor que la probabilidad de \\(B\\)."
+  },
+  {
+    "objectID": "03-propiedades.html#fórmula-de-la-unión-de-dos-sucesos",
+    "href": "03-propiedades.html#fórmula-de-la-unión-de-dos-sucesos",
+    "title": "Propiedades de la probabilidad",
+    "section": "",
+    "text": "Para dos sucesos cualesquiera \\(A\\) y \\(B\\):\n\\[\nP(A\\cup B)=P(A)+P(B)-P(A\\cap B)\n\\]\n\n\n\n\n\n\nTipCaso especial\n\n\n\nSi \\(A\\) y \\(B\\) son incompatibles, entonces:\n\\[\nA\\cap B=\\varnothing\n\\]\ny por tanto:\n\\[\nP(A\\cup B)=P(A)+P(B)\n\\]"
+  }
+]

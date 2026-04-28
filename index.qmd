@@ -1,0 +1,24 @@
+---
+title: "Axiomática de Kolmogorov"
+---
+
+# Axiomática de Kolmogorov
+
+Este material está pensado para estudiantes que llegan a la universidad desde bachillerato y necesitan una introducción clara a la probabilidad axiomática.
+
+## Objetivos del material
+
+Al terminar este bloque, deberías ser capaz de:
+
+- Entender qué es un experimento aleatorio.
+- Identificar el espacio muestral de un experimento.
+- Distinguir entre resultado elemental y suceso.
+- Comprender los tres axiomas de Kolmogorov.
+- Deducir propiedades básicas de la probabilidad.
+
+## Contenidos
+
+1. [Introducción](01-introduccion.qmd)
+2. [Axiomas de Kolmogorov](02-axiomas.qmd)
+3. [Propiedades de la probabilidad](03-propiedades.qmd)
+4. [Ejercicios](04-ejercicios.qmd)

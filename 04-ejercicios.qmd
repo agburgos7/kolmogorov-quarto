@@ -1,0 +1,121 @@
+---
+title: "Ejercicios"
+---
+
+# Ejercicios
+
+## Ejercicio 1
+
+Lanzamos un dado equilibrado.
+
+Sea:
+
+$$
+A=\{1,3,5\}
+$$
+
+1.  Describe con palabras el suceso $A$.
+2.  Calcula $P(A)$.
+
+::: {.callout-tip collapse="true"}
+## Solución
+
+El suceso $A$ significa "obtener un número impar".
+
+Como hay 3 resultados favorables de 6 posibles:
+
+$$
+P(A)=\frac{3}{6}=\frac{1}{2}
+$$
+:::
+
+## Ejercicio 2
+
+Lanzamos un dado equilibrado.
+
+Sean:
+
+$$
+A=\{1,2\}
+$$
+
+y
+
+$$
+B=\{2,3,4\}
+$$
+
+1.  Calcula $A \cap B$.
+2.  Calcula $A \cup B$.
+3.  ¿Son incompatibles?
+
+::: {.callout-tip collapse="true"}
+## Solución
+
+Tenemos:
+
+$$
+A \cap B = \{2\}
+$$
+
+y
+
+$$
+A \cup B = \{1,2,3,4\}
+$$
+
+No son incompatibles porque tienen un elemento en común.
+:::
+
+## Ejercicio 3
+
+Sabemos que:
+
+$$
+P(A)=0.35
+$$
+
+Calcula:
+
+$$
+P(A^c)
+$$
+
+::: {.callout-tip collapse="true"}
+## Solución
+
+Usamos la fórmula:
+
+$$
+P(A^c)=1-P(A)
+$$
+
+Por tanto:
+
+$$
+P(A^c)=1-0.35=0.65
+$$
+:::
+
+------------------------------------------------------------------------
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

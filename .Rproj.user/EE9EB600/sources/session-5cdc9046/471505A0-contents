@@ -1,0 +1,69 @@
+---
+title: "Propiedades de la probabilidad"
+---
+
+# Propiedades de la probabilidad
+
+A partir de los axiomas de Kolmogorov se pueden deducir muchas propiedades importantes.
+
+## Probabilidad del suceso imposible
+
+El suceso imposible se denota por:
+
+$$
+\varnothing
+$$
+
+y cumple:
+
+$$
+P(\varnothing)=0
+$$
+
+## Probabilidad del complementario
+
+Si $A$ es un suceso, su complementario $A^c$ representa que no ocurre $A$.
+
+Se cumple:
+
+$$
+P(A^c)=1-P(A)
+$$
+
+## Monotonía
+
+Si $A \subseteq B$, entonces:
+
+$$
+P(A)\leq P(B)
+$$
+
+Es decir, si siempre que ocurre $A$ también ocurre $B$, entonces la probabilidad de $A$ no puede ser mayor que la probabilidad de $B$.
+
+## Fórmula de la unión de dos sucesos
+
+Para dos sucesos cualesquiera $A$ y $B$:
+
+$$
+P(A\cup B)=P(A)+P(B)-P(A\cap B)
+$$
+
+::: callout-tip
+## Caso especial
+
+Si $A$ y $B$ son incompatibles, entonces:
+
+$$
+A\cap B=\varnothing
+$$
+
+y por tanto:
+
+$$
+P(A\cup B)=P(A)+P(B)
+$$
+:::
+
+------------------------------------------------------------------------
+
+## 

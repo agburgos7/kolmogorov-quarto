@@ -1,0 +1,15 @@
+{
+  "hash": "b64c122989809bcfe41e36ccadc1b46e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Introducción a la probabilidad\"\n---\n\n# Introducción\n\nAntes de estudiar los axiomas de Kolmogorov, necesitamos recordar algunas ideas básicas.\n\n## Experimento aleatorio\n\nUn **experimento aleatorio** es un proceso cuyo resultado no podemos predecir con certeza antes de realizarlo.\n\nPor ejemplo:\n\n- Lanzar una moneda.\n- Lanzar un dado.\n- Extraer una carta de una baraja.\n- Elegir al azar una persona de una clase.\n\n## Espacio muestral\n\nEl **espacio muestral** es el conjunto de todos los resultados posibles de un experimento aleatorio. Lo denotamos por:\n\n$$\n\\Omega\n$$\n\nPor ejemplo, si lanzamos un dado:\n\n$$\n\\Omega = \\{1,2,3,4,5,6\\}\n$$\n\n## Sucesos\n\nUn **suceso** es un subconjunto del espacio muestral.\n\nPor ejemplo, si lanzamos un dado, el suceso \"obtener un número par\" es:\n\n$$\nA = \\{2,4,6\\}\n$$\n\n::: {.callout-note}\n## Idea clave\n\nUn resultado elemental es un único resultado posible.  \nUn suceso puede contener uno o varios resultados.\n:::\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n## Running Code\n\nWhen you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\nYou can add options to executable code like this\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n:::\n\n\nThe `echo: false` option disables the printing of code (only output is displayed).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

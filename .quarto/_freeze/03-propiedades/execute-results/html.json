@@ -1,0 +1,15 @@
+{
+  "hash": "955c65da2f11c023b7cb78be1531d86e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Propiedades de la probabilidad\"\n---\n\n# Propiedades de la probabilidad\n\nA partir de los axiomas de Kolmogorov se pueden deducir muchas propiedades importantes.\n\n## Probabilidad del suceso imposible\n\nEl suceso imposible se denota por:\n\n$$\n\\varnothing\n$$\n\ny cumple:\n\n$$\nP(\\varnothing)=0\n$$\n\n## Probabilidad del complementario\n\nSi $A$ es un suceso, su complementario $A^c$ representa que no ocurre $A$.\n\nSe cumple:\n\n$$\nP(A^c)=1-P(A)\n$$\n\n## Monotonía\n\nSi $A \\subseteq B$, entonces:\n\n$$\nP(A)\\leq P(B)\n$$\n\nEs decir, si siempre que ocurre $A$ también ocurre $B$, entonces la probabilidad de $A$ no puede ser mayor que la probabilidad de $B$.\n\n## Fórmula de la unión de dos sucesos\n\nPara dos sucesos cualesquiera $A$ y $B$:\n\n$$\nP(A\\cup B)=P(A)+P(B)-P(A\\cap B)\n$$\n\n::: {.callout-tip}\n## Caso especial\n\nSi $A$ y $B$ son incompatibles, entonces:\n\n$$\nA\\cap B=\\varnothing\n$$\n\ny por tanto:\n\n$$\nP(A\\cup B)=P(A)+P(B)\n$$\n:::\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n## Running Code\n\nWhen you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\nYou can add options to executable code like this\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n:::\n\n\nThe `echo: false` option disables the printing of code (only output is displayed).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

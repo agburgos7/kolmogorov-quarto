@@ -1,0 +1,112 @@
+---
+title: "Axiomas de Kolmogorov"
+---
+
+# Axiomas de Kolmogorov
+
+La probabilidad moderna se construye a partir de una formulación axiomática. Esto significa que partimos de unas reglas básicas, llamadas **axiomas**, y a partir de ellas deducimos las propiedades de la probabilidad.
+
+## Función de probabilidad
+
+Sea $\Omega$ un espacio muestral. Una probabilidad es una función que asigna a cada suceso $A$ un número real $P(A)$.
+
+Ese número representa el grado de posibilidad de que ocurra el suceso $A$.
+
+## Axioma 1: no negatividad
+
+Para todo suceso $A$:
+
+$$
+P(A) \geq 0
+$$
+
+Es decir, una probabilidad nunca puede ser negativa.
+
+::: callout-note
+## Interpretación
+
+No tiene sentido decir que la probabilidad de un suceso es menor que cero.
+:::
+
+## Axioma 2: probabilidad del espacio total
+
+La probabilidad del espacio muestral completo es igual a uno:
+
+$$
+P(\Omega)=1
+$$
+
+Esto significa que, al realizar el experimento, necesariamente ocurre algún resultado del espacio muestral.
+
+## Axioma 3: aditividad numerable
+
+Si $A_1,A_2,A_3,\ldots$ son sucesos incompatibles dos a dos, entonces:
+
+$$
+P\left(\bigcup_{n=1}^{\infty} A_n\right)
+=
+\sum_{n=1}^{\infty} P(A_n)
+$$
+
+Dos sucesos son incompatibles si no pueden ocurrir al mismo tiempo.
+
+Es decir, si:
+
+$$
+A_i \cap A_j = \varnothing
+\quad \text{cuando } i \neq j
+$$
+
+::: callout-warning
+## Cuidado
+
+La fórmula
+
+$$
+P(A \cup B)=P(A)+P(B)
+$$
+
+solo se puede usar directamente cuando $A$ y $B$ son incompatibles.
+:::
+
+## Ejemplo
+
+Lanzamos un dado equilibrado. Consideramos los sucesos:
+
+$$
+A = \{1,2\}
+$$
+
+y
+
+$$
+B = \{5,6\}
+$$
+
+Como no tienen elementos en común:
+
+$$
+A \cap B = \varnothing
+$$
+
+podemos sumar sus probabilidades:
+
+$$
+P(A \cup B)=P(A)+P(B)
+$$
+
+Como:
+
+$$
+P(A)=\frac{2}{6}
+$$
+
+y
+
+$$
+P(B)=\frac{2}{6}
+$$
+
+entonces:
+
+$$ P(A \cup B)=\frac{2}{6}+\frac{2}{6}=\frac{4}{6}=\frac{2}{3}$\$

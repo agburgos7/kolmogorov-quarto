@@ -1,0 +1,51 @@
+---
+title: "Introducción a la probabilidad"
+---
+
+# Introducción
+
+Antes de estudiar los axiomas de Kolmogorov, necesitamos recordar algunas ideas básicas.
+
+## Experimento aleatorio
+
+Un **experimento aleatorio** es un proceso cuyo resultado no podemos predecir con certeza antes de realizarlo.
+
+Por ejemplo:
+
+-   Lanzar una moneda.
+-   Lanzar un dado.
+-   Extraer una carta de una baraja.
+-   Elegir al azar una persona de una clase.
+
+## Espacio muestral
+
+El **espacio muestral** es el conjunto de todos los resultados posibles de un experimento aleatorio. Lo denotamos por:
+
+$$
+\Omega
+$$
+
+Por ejemplo, si lanzamos un dado:
+
+$$
+\Omega = \{1,2,3,4,5,6\}
+$$
+
+## Sucesos
+
+Un **suceso** es un subconjunto del espacio muestral.
+
+Por ejemplo, si lanzamos un dado, el suceso "obtener un número par" es:
+
+$$
+A = \{2,4,6\}
+$$
+
+::: callout-note
+## Idea clave
+
+Un resultado elemental es un único resultado posible.\
+Un suceso puede contener uno o varios resultados.
+:::
+
+------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+{
+  "kolmogorov-quarto.qmd": {
+    "kolmogorov-quarto.html": "e9ee39be"
+  },
+  "index.qmd": {
+    "index.html": "f7b1c67d"
+  },
+  "01-introduccion.qmd": {
+    "01-introduccion.html": "1c7e5a5a"
+  },
+  "02-axiomas.qmd": {
+    "02-axiomas.html": "46f0d970"
+  },
+  "03-propiedades.qmd": {
+    "03-propiedades.html": "8a3dcc6b"
+  },
+  "04-ejercicios.qmd": {
+    "04-ejercicios.html": "7f61bf5f"
+  }
+}

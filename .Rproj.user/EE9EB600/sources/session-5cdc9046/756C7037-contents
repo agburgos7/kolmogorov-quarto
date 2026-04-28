@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - 01-introduccion.qmd
+    - 02-axiomas.qmd
+    - 03-propiedades.qmd
+    - 04-ejercicios.qmd
+
+website:
+  title: "Axiomática de Kolmogorov"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: 01-introduccion.qmd
+        text: Introducción
+      - href: 02-axiomas.qmd
+        text: Axiomas
+      - href: 03-propiedades.qmd
+        text: Propiedades
+      - href: 04-ejercicios.qmd
+        text: Ejercicios
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true

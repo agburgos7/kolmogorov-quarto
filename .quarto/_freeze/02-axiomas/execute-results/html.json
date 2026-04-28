@@ -1,0 +1,15 @@
+{
+  "hash": "7a93abee21410cd59a3757774ba40f22",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Axiomas de Kolmogorov\"\n---\n\n# Axiomas de Kolmogorov\n\nLa probabilidad moderna se construye a partir de una formulación axiomática. Esto significa que partimos de unas reglas básicas, llamadas **axiomas**, y a partir de ellas deducimos las propiedades de la probabilidad.\n\n## Función de probabilidad\n\nSea $\\Omega$ un espacio muestral. Una probabilidad es una función que asigna a cada suceso $A$ un número real $P(A)$.\n\nEse número representa el grado de posibilidad de que ocurra el suceso $A$.\n\n## Axioma 1: no negatividad\n\nPara todo suceso $A$:\n\n$$\nP(A) \\geq 0\n$$\n\nEs decir, una probabilidad nunca puede ser negativa.\n\n::: {.callout-note}\n## Interpretación\n\nNo tiene sentido decir que la probabilidad de un suceso es menor que cero.\n:::\n\n## Axioma 2: probabilidad del espacio total\n\nLa probabilidad del espacio muestral completo es igual a uno:\n\n$$\nP(\\Omega)=1\n$$\n\nEsto significa que, al realizar el experimento, necesariamente ocurre algún resultado del espacio muestral.\n\n## Axioma 3: aditividad numerable\n\nSi $A_1,A_2,A_3,\\ldots$ son sucesos incompatibles dos a dos, entonces:\n\n$$\nP\\left(\\bigcup_{n=1}^{\\infty} A_n\\right)\n=\n\\sum_{n=1}^{\\infty} P(A_n)\n$$\n\nDos sucesos son incompatibles si no pueden ocurrir al mismo tiempo.\n\nEs decir, si:\n\n$$\nA_i \\cap A_j = \\varnothing\n\\quad \\text{cuando } i \\neq j\n$$\n\n::: {.callout-warning}\n## Cuidado\n\nLa fórmula\n\n$$\nP(A \\cup B)=P(A)+P(B)\n$$\n\nsolo se puede usar directamente cuando $A$ y $B$ son incompatibles.\n:::\n\n## Ejemplo\n\nLanzamos un dado equilibrado. Consideramos los sucesos:\n\n$$\nA = \\{1,2\\}\n$$\n\ny\n\n$$\nB = \\{5,6\\}\n$$\n\nComo no tienen elementos en común:\n\n$$\nA \\cap B = \\varnothing\n$$\n\npodemos sumar sus probabilidades:\n\n$$\nP(A \\cup B)=P(A)+P(B)\n$$\n\nComo:\n\n$$\nP(A)=\\frac{2}{6}\n$$\n\ny\n\n$$\nP(B)=\\frac{2}{6}\n$$\n\nentonces:\n\n$$\nP(A \\cup B)=\\frac{2}{6}+\\frac{2}{6}=\\frac{4}{6}=\\frac{2}{3}\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n## Running Code\n\nWhen you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\nYou can add options to executable code like this\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n:::\n\n\nThe `echo: false` option disables the printing of code (only output is displayed).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
