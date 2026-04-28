@@ -109,7 +109,7 @@
     "href": "01-introduccion.html",
     "title": "Introducción a la probabilidad",
     "section": "",
-    "text": "Antes de estudiar los axiomas de Kolmogorov, necesitamos recordar algunas ideas básicas.\n\n\nUn experimento aleatorio es un proceso cuyo resultado no podemos predecir con certeza antes de realizarlo.\nPor ejemplo:\n\nLanzar una moneda.\nLanzar un dado.\nExtraer una carta de una baraja.\nElegir al azar una persona de una clase.\n\n\n\n\nEl espacio muestral es el conjunto de todos los resultados posibles de un experimento aleatorio. Lo denotamos por:\n\\[\n\\Omega\n\\]\nPor ejemplo, si lanzamos un dado:\n\\[\n\\Omega = \\{1,2,3,4,5,6\\}\n\\]\n\n\n\nUn suceso es un subconjunto del espacio muestral.\nPor ejemplo, si lanzamos un dado, el suceso “obtener un número par” es:\n\\[\nA = \\{2,4,6\\}\n\\]\n\n\n\n\n\n\nNoteIdea clave\n\n\n\nUn resultado elemental es un único resultado posible.\nUn suceso puede contener uno o varios resultados."
+    "text": "Antes de estudiar los axiomas de Kolmogorov, necesitamos recordar algunas ideas básicas.\n\n\nUn experimento aleatorio es un proceso cuyo resultado no podemos predecir con certeza antes de realizarlo.\nPor ejemplo:\n\nLanzar una moneda.\nLanzar un dado.\nExtraer una carta de una baraja.\nElegir al azar una persona de una clase.\n\n\n\n\nEl espacio muestral es el conjunto de todos los resultados posibles de un experimento aleatorio. Lo denotamos por:\n\\[\n\\Omega\n\\]\nPor ejemplo, si lanzamos un dado:\n\\[\n\\Omega = \\{1,2,3,4,5,6\\}\n\\]\n\n\n\nUn suceso es un subconjunto del espacio muestral.\nPor ejemplo, si lanzamos un dado, el suceso “obtener un número par” es:\n\\[\nA = \\{2,4,6\\}\n\\]\n\n\n\n\n\n\nNoteIdea clave\n\n\n\nUn resultado elemental es un único resultado posible.\nUn suceso puede contener uno o varios resultados.\n\n\n\nTquchitooooo. Te amo &lt;3"
   },
   {
     "objectID": "01-introduccion.html#experimento-aleatorio",
@@ -130,7 +130,7 @@
     "href": "01-introduccion.html#sucesos",
     "title": "Introducción a la probabilidad",
     "section": "",
-    "text": "Un suceso es un subconjunto del espacio muestral.\nPor ejemplo, si lanzamos un dado, el suceso “obtener un número par” es:\n\\[\nA = \\{2,4,6\\}\n\\]\n\n\n\n\n\n\nNoteIdea clave\n\n\n\nUn resultado elemental es un único resultado posible.\nUn suceso puede contener uno o varios resultados."
+    "text": "Un suceso es un subconjunto del espacio muestral.\nPor ejemplo, si lanzamos un dado, el suceso “obtener un número par” es:\n\\[\nA = \\{2,4,6\\}\n\\]\n\n\n\n\n\n\nNoteIdea clave\n\n\n\nUn resultado elemental es un único resultado posible.\nUn suceso puede contener uno o varios resultados.\n\n\n\nTquchitooooo. Te amo &lt;3"
   },
   {
     "objectID": "03-propiedades.html",
